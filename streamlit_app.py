@@ -24,7 +24,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 #writes data to the screen
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon"+fruit_choice)
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+fruit_choice)
 
 
 # stores the data in a table 
